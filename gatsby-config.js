@@ -8,9 +8,9 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-Sushi/gatsby-config.js
     siteTitle: `Sushi`,
-    siteTitleAlt: `Sushi - Portfolio`,
-    siteHeadline: `Sushi - `,
-    siteUrl: `https://Sushi.lekoarts.de`,
+    siteTitleAlt: `Sushi - Gatsby Starter Portfolio`,
+    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
+    siteUrl: `https://cara.lekoarts.de`,
     siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
@@ -18,15 +18,15 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `@lekoarts/gatsby-theme-Sushi`,
+      resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
       options: {},
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Sushi - @lekoarts/gatsby-theme-Sushi`,
-        short_name: `Sushi`,
+        name: `Cara - @lekoarts/gatsby-theme-cara`,
+        short_name: `Cara`,
         description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
         start_url: `/`,
         background_color: `#141821`,
